@@ -1,0 +1,88 @@
+1. membuat pseudocode resultan gaya
+    Pseudocode : 
+        STORE "mass" with 600
+        STORE "acceleration" with 2
+        STORE "motion" without any value
+
+        CALCULATE "mass" times "acceleration"
+        SET "motion" value with calculation result
+
+        DISPLAY "motioon"
+
+2. Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+
+    Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+    Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+    Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
+    rumus = 
+                IF "x" mod 4 = 0 and mod = 100 != 0 or IF "x" mod 4 = 0 and mod 100 = 0 and mod 400 = 0
+                    then
+                    'x'= kabisat
+        Algorithm :
+            a. tentukan variable 'x' (tahun)
+            b. bagi x dengan 4, 
+            c. bagi x dengan 100
+            d. bagi x dengan 400
+            e. jika sisa hasil bagi x dengan 4 adalah 0, dan sisa hasil bagi x dengan 100 bukan 0, maka x adalah kabisat
+            f. jika sisa hasil bagi x dengan 4 adalah 0, dan sisa hasil bagi x dengan 100 adalah 0, dan sisa hasil bagi x dengn 400 adalah 0, maka x adalah kabisat
+
+
+
+        Pseudocode :
+        STORE "year" with any value
+       IF "year" mod 4=0 and "year" mod 100 !=0 THEN
+            "Leap Years"
+       ELSE IF "year" mod 4=0 and "year" mod 100 = 0 and "year" mod 400 = 0 THEN
+            "Leap Years"
+       ELSE 
+            "Not Leap Years"
+       END IF
+
+
+3.  Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. 
+    Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+    Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!
+
+    Algorithm :
+    1. hitung pakaian Foxie
+    2. masukkan pakaian Foxie ke dalam mesin cuci
+    3. hitung pakaian Foxie yang masuk ke mesin cuci sampai 20
+    4. nyalakan mesin cuci
+    5. pencucian dimulai
+    6. pencucian selesai
+
+
+    Pseudocode :
+    READ pakaian = integer
+    IF pakaian=20 THEN
+      "nyalakan mesin cuci"
+    ELSE IF pakaian < 20 THEN
+      "masukkan pakaian ke mesin cuci"
+    ELSE
+      "mesin cuci kepenuhan, kurangi pakaian di mesin cuci"
+    END IF
+
+
+4.  Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. 
+    Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+    Buatlah algoritma & pseudocode untuk permasalahan diatas.
+
+    Algorithm :
+    1. kuku sebanyak 40 siswa diperiksa satu per satu oleh guru
+    2. guru menemukan siswa dengan kuku yang panjang
+    3. siswa tersebut dihukum
+    4. guru menemukan siswa dengan kuku yang pendek
+    5. siswa tersebut dipuji oleh guru
+    6. 
+
+    Pseudocode :
+    READ siswa
+
+
+    IF kuku >= 0.5 then
+        "Kamu dihukum"
+    ELSE 
+        "Kamu keren sekali"
+    END IF
+     
